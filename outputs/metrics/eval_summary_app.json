@@ -1,0 +1,14 @@
+{
+  "evaluated_at": "2026-03-24 17:17:08",
+  "raw_output": "load test data\nload model\npredicting\nwrong predictions\ndata/test\\Azalea\\IMG_20260322_161232.jpg Azalea Chinese Fan Palm\ndata/test\\Bamboo\\IMG_20260322_150403.jpg Bamboo Olive Tree\ndata/test\\Bamboo\\IMG_20260322_154851.jpg Bamboo Bougainvillea\ndata/test\\Bougainvillea\\IMG_20260322_160303.jpg Bougainvillea Azalea\ndata/test\\Bougainvillea\\IMG_20260322_160606.jpg Bougainvillea Olive Tree\ndata/test\\Chinese Fan Palm\\IMG_20260322_154230.jpg Chinese Fan Palm Juniper\ndata/test\\Foxtail Fern\\IMG_20260322_171136.jpg Foxtail Fern Juniper\ndata/test\\Foxtail Fern\\IMG_20260322_171204.jpg Foxtail Fern Azalea\ndata/test\\Juniper\\IMG_20260322_151521.jpg Juniper Bamboo\nThere are 9 wrong predictions\ntest accuracy is 0.839\nconfusion matrix:\n[[6 0 0 1 0 0 0 0]\n [0 5 1 0 0 0 0 1]\n [1 0 5 0 0 0 0 1]\n [0 0 0 6 0 0 1 0]\n [1 0 0 0 5 0 1 0]\n [0 0 0 0 0 7 0 0]\n [0 1 0 0 0 0 6 0]\n [0 0 0 0 0 0 0 7]]\nclassification report:\n                  precision    recall  f1-score   support\n\n          Azalea       0.75      0.86      0.80         7\n          Bamboo       0.83      0.71      0.77         7\n   Bougainvillea       0.83      0.71      0.77         7\nChinese Fan Palm       0.86      0.86      0.86         7\n    Foxtail Fern       1.00      0.71      0.83         7\n           Ixora       1.00      1.00      1.00         7\n         Juniper       0.75      0.86      0.80         7\n      Olive Tree       0.78      1.00      0.88         7\n\n        accuracy                           0.84        56\n       macro avg       0.85      0.84      0.84        56\n    weighted avg       0.85      0.84      0.84        56",
+  "accuracy": 0.839,
+  "wrong_predictions": 9,
+  "report_accuracy": 0.84,
+  "total_samples": 56,
+  "macro_precision": 0.85,
+  "macro_recall": 0.84,
+  "macro_f1": 0.84,
+  "confusion_matrix_text": "[[6 0 0 1 0 0 0 0]\n [0 5 1 0 0 0 0 1]\n [1 0 5 0 0 0 0 1]\n [0 0 0 6 0 0 1 0]\n [1 0 0 0 5 0 1 0]\n [0 0 0 0 0 7 0 0]\n [0 1 0 0 0 0 6 0]\n [0 0 0 0 0 0 0 7]]",
+  "classification_report_text": "precision    recall  f1-score   support\n\n          Azalea       0.75      0.86      0.80         7\n          Bamboo       0.83      0.71      0.77         7\n   Bougainvillea       0.83      0.71      0.77         7\nChinese Fan Palm       0.86      0.86      0.86         7\n    Foxtail Fern       1.00      0.71      0.83         7\n           Ixora       1.00      1.00      1.00         7\n         Juniper       0.75      0.86      0.80         7\n      Olive Tree       0.78      1.00      0.88         7\n\n        accuracy                           0.84        56\n       macro avg       0.85      0.84      0.84        56\n    weighted avg       0.85      0.84      0.84        56",
+  "correct_predictions": 47
+}

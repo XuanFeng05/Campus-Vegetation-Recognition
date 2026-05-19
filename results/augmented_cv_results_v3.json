@@ -1,0 +1,67 @@
+{
+  "setting": {
+    "color_space": "HSV",
+    "color_bins": [
+      12,
+      12,
+      12
+    ],
+    "pixels_per_cell": [
+      24,
+      24
+    ],
+    "orientations": 15,
+    "use_lbp": true,
+    "svm_params": {
+      "classifier__C": 100,
+      "classifier__gamma": 1e-05
+    }
+  },
+  "fold_accuracies": [
+    0.95,
+    0.95,
+    0.775,
+    0.825,
+    0.875
+  ],
+  "mean_accuracy": 0.875,
+  "std_accuracy": 0.0689202437604511,
+  "num_classes": 8,
+  "details": [
+    {
+      "fold": 1,
+      "train_original_samples": 160,
+      "train_augmented_samples": 960,
+      "val_samples": 40,
+      "accuracy": 0.95
+    },
+    {
+      "fold": 2,
+      "train_original_samples": 160,
+      "train_augmented_samples": 960,
+      "val_samples": 40,
+      "accuracy": 0.95
+    },
+    {
+      "fold": 3,
+      "train_original_samples": 160,
+      "train_augmented_samples": 960,
+      "val_samples": 40,
+      "accuracy": 0.775
+    },
+    {
+      "fold": 4,
+      "train_original_samples": 160,
+      "train_augmented_samples": 960,
+      "val_samples": 40,
+      "accuracy": 0.825
+    },
+    {
+      "fold": 5,
+      "train_original_samples": 160,
+      "train_augmented_samples": 960,
+      "val_samples": 40,
+      "accuracy": 0.875
+    }
+  ]
+}
