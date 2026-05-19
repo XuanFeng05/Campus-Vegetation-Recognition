@@ -1,0 +1,18 @@
+{
+  "color_space": "HSV",
+  "color_bins": [
+    12,
+    12,
+    12
+  ],
+  "pixels_per_cell": [
+    24,
+    24
+  ],
+  "orientations": 15,
+  "use_lbp": true,
+  "svm_params": {
+    "classifier__C": 100,
+    "classifier__gamma": 1e-05
+  }
+}
